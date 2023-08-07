@@ -1,0 +1,17 @@
+.wrapper {
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.layout-container {
+  margin: 0 auto;
+
+  &.overflow {
+    overflow-y: visible;
+  }
+}
