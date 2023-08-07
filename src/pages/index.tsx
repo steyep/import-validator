@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import '../styles/global.scss';
 import Layout from '../components/layout/layout';
 import reportWebVitals from '../reportWebVitals';
+import Importer from '../components/importer/importer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -10,6 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Layout>
+      <Importer/>
     </Layout>
   </React.StrictMode>
 );

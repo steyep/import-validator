@@ -1,0 +1,16 @@
+@import '../../styles/global/colors';
+
+.invalid {
+  background-color: $color-red !important;
+  border-width: 1px !important;
+}
+
+.required::after {
+  content: '*';
+  color: $color-red;
+  vertical-align: super;
+}
+
+.importer-form {
+  margin-top: 1rem;
+}
